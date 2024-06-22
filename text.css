@@ -1,0 +1,95 @@
+:root {
+    --black: #171321;
+    --dkblue: #0d314b;
+    --plum: #4b0d49;
+    --hotmag: #ff17e4;
+    --magenta: #e310cb;
+    --aqua: #86fbfb;
+    --white: #f7f8fa;
+    --font-size: 1.3rem;
+    --mono: "Oxygen mono", monospace;
+    --sans: Oxygen, sans-serif;
+    }
+    /* border box model: https://css-tricks.com/box-sizing/ */
+    html {
+        box-sizing: border-box;
+    }
+    *,
+    *::before,
+    *::after {
+        box-sizing: inherit;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: var(--sans);
+        background-color: var(--black);
+        color: var(--white);
+        font-size: var(--font-size);
+    }
+
+    h1, h2, h3 {
+        margin: 0;
+    }
+
+    a {
+        color: var(--magenta);
+    }
+
+    a:hover {
+        color: var(--hotmag);
+        text-decoration: none;
+    }
+
+    #intro {
+        padding-bottom: 160px;
+    }
+
+    #intro p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    #intro .name {
+        font-family: var(--mono);
+    }
+
+    .name span {
+        font-family: var(--sans);
+        font-size: 64px;
+        color: var(--aqua);
+        display: block;
+    }
+
+    h2 {
+        font-size: 64px;
+        font-weight: normal;
+    }
+
+    #contact h2 {
+       font-size: 30px;
+    }
+
+    #contact {
+        width: 400px;
+        text-align: center;
+        margin: 0 auto;
+        padding: 49px 0;
+    }
+    
+    #contact p:last-child {
+        margin-top: 49px;
+    }
+
+    /* #contact {
+        text-align: center;
+        margin: 0 auto;
+        padding: 49px 0;
+        background-color: var(--plum);
+        color: var(--white);
+    }
+
+    #contact p {
+        width: 400px;
+    } */
