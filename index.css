@@ -82,14 +82,76 @@
         margin-top: 49px;
     }
 
-    /* #contact {
-        text-align: center;
-        margin: 0 auto;
-        padding: 49px 0;
-        background-color: var(--plum);
-        color: var(--white);
+    nav {
+        font-family: var(--mono);
+        font-size: 80%;
+        padding: 16px;
+        
     }
 
-    #contact p {
-        width: 400px;
+    nav h1 a {
+        font-family: var(--sans);
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+    }
+
+    nav a {
+        color:var(--white);
+        text-decoration: none;
+        display: block;
+    }
+
+    nav [class*="fa-"]{
+        font-size: 150%;
+        color: var(--aqua);
+    }
+
+    nav a:hover, nav [class*="fa-"]:hover {
+        color: var(--magenta);
+    }
+
+    nav li:first-child {
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .button {
+        background-color: var(--magenta);
+        padding:4px 10px;
+        border-radius: 4px;
+    }
+    .button:hover {
+        color: var(--white);
+        background-color: var(--hotmag);
+    }
+
+    @media (min-width:850px){
+        nav {
+            max-width:1200px;
+            margin: 0 auto;
+        } 
+
+        nav li:first-child {
+            flex-basis:auto;
+            text-align: left;
+            margin-right:auto;
+        }
+    }
+    
+    /* .navitems {
+        display: flex;
+        justify-content: space-evenly;    }
+
+
+    nav li:first-child {
+        text-align: center;
     } */
