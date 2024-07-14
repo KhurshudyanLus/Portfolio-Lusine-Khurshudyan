@@ -48,11 +48,6 @@
    border-left: 1px solid var(--aqua);
    border-radius: 25px;
    padding: 16px;
-   width: 600px;
-   height: 600px;
-   object-fit: cover;
-   object-position: center;
-
 }
 
 
@@ -73,8 +68,5 @@
         grid-column: 5/11;
         grid-row: 1/2;
     }
-    /* #about ul {
-        justify-content: flex-end;
-    } */
 
     }
