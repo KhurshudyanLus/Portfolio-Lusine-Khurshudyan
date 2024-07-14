@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen+Mono&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/all.min.css">
+    <link href="index.css" rel="stylesheet">
+    <link href="projects.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <h1> <a href="index.html"> 
+                    <span class="fa-regular fa-chess-pawn"></span>
+                    Lusine K. 
+                    </a> 
+                </h1>
+            </li>
+            <li> <a href="projects.html">Projects</a></li>
+            <li><a href="about.html">About</a></li>
+            <li> <a href="contact.html">Contact</a></li>
+            <li> <a href="https://www.linkedin.com/in/lusine-khurshudyan-5a6179185/">
+                <span class="fa-brands fa-linkedin" aria-hidden = "true"></span>
+                <span class="sr-only">LinkedIn</span> 
+                </a>
+             </li>
+            <li><a href="https://github.com/"> 
+                <span class="fa-brands fa-github" aria-hidden="true"></span>
+                <span class="sr-only"> Github</span>
+                </a>
+             </li>
+            <li><a href="cv.pdf" class="button">Resume</a></li>
+        </ul>
+    </nav>
+    <div class="section-dkblue">
+        <section id="projects">
+            <h2> Projects I'm proud of</h2>
+                <article>
+                    <div class="text">
+                        <h4>The First Project</h4>
+                        <h3>Youtube</h3>
+                        <p class="blackbox">
+                            In my first project, I developed a YouTube clone using HTML and CSS. 
+                            Initially, I added pseudo-classes everywhere and had a lot of irrelevant code. 
+                            Recently, I reviewed and cleaned up the code, removing unnecessary parts and 
+                            minimizing it. I learned key web development concepts such as `div`, `grid`, `flex`,
+                             tooltips, and buttons. Flexbox created a responsive header and sidebar, while CSS Grid
+                              ensured a uniform video layout. I styled thumbnails, titles, usernames, and stats, 
+                              adding tooltips, hover effects, and custom buttons for interactivity. 
+                              The design is responsive, adapting to various screen sizes. 
+                              Due to this project,  I gained new knowledge on the smallest units of web development.
+                        </p>
+                        <h4>
+                            All project images are clickable. Technologies used include:
+                        </h4>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                    </div>
+                    <img src="Project.Youtube.png" onclick="zoom(this)">
+                </article>
+
+                <article class="reverse">
+                    <div class="text">
+                        <h4>The Second Project</h4>
+                        <h3>Instagram</h3>
+                        <p class="blackbox">
+                            In my second project, I cloned my Instagram page after completing my YouTube clone project.
+                             I did everything on my own, applying the skills I learned previously. This project involved using
+                              HTML and CSS to create the layout and design, including the header, sidebar, profile section, 
+                              and photo grid. I implemented Flexbox for the responsive header and sidebar, and CSS Grid for 
+                              arranging the posts and story highlights. I also added a small JavaScript function to zoom in on images
+                               when clicked. This project further solidified my understanding of web development fundamentals 
+                               and allowed me to explore basic JavaScript interactivity.
+                        </p>
+                        <h4>
+                            All project images are clickable. Technologies used include:
+                        </h4>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JS</li>
+                            
+                        </ul>
+                    </div>
+                        <img src="Projects.Instagram.png" onclick="zoom(this)">
+                    
+                </article>
+                <article>
+                    <div class="text">
+                        <h4>Mini Projects</h4>
+                        <h3>Up-to-date Calendar and Random Picture</h3>
+                        <p class="blackbox">
+                            I developed two projects to enhance my web development skills. The first
+                            is an up-to-date calendar using HTML, CSS, and JavaScript, which dynamically
+                            displays the current date with a clean design. The second project is a random
+                            picture uploader that uses an API to fetch and display random images when the
+                            "Load More" button is clicked. This project also employs HTML, CSS, and JavaScript.
+                            Both projects helped me deepen my understanding of JavaScript functionality and API
+                            integration while focusing on creating visually appealing and interactive web applications.
+                        </p>
+                        <h4>
+                            All project images are clickable. Technologies used include:
+                        </h4>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JS</li>
+                        </ul>
+                    </div>
+                    <img src="Mini Projects (1).png" onclick="zoom(this)">
+                </article>
+
+        </section>
+    </div>
+    <footer>
+        <h2> Lusine K. IT PM</h2>
+        <ul> 
+            <li>
+               <a href="https://www.linkedin.com/in/lusine-khurshudyan-5a6179185/">
+                    <span class="fa-brands fa-linkedin" aria-hidden="true"> </span>
+                    <span class="sr-only">LinkedIn</span>
+                </a> 
+            </li>
+            <li>
+              <a href="https://github.com/">
+                <span class="fa-brands fa-github" aria-hidden="true"> </span>
+                <span class="sr-only">Github</span>
+            </a>  
+            </li>
+            <li>
+              <a href="mailto:lusine.khurshudyan.98@gmail.com">
+                <span class="fa-solid fa-envelope" aria-hidden="true"></span>
+                <span class="sr-only">Email</span>
+            </a>  
+            </li>
+            
+            
+        </ul> 
+         <p><small> &copy;Lusine K. All rights reserved.</small></p>
+    </footer>
+    <script> 
+
+    function zoom (element) {
+        element.classList.toggle("fullsize")
+    }
+    
+    </script>
+</body>
+</html>
