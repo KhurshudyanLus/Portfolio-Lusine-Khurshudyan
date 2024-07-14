@@ -196,6 +196,7 @@
     
     @media (max-width:550px) {
         #contact p {
-            padding:6px;
+            padding:0 20px;
+            text-wrap: wrap;
         }
     }
