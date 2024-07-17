@@ -255,7 +255,6 @@
         padding: 0;
         margin: 20px 0;
         display: flex;
-        /* flex-flow: row wrap; I wonder what this does. */ 
         justify-content: center;
         gap: 32px;
         font-size: 32px;
